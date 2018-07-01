@@ -37,6 +37,15 @@ function makeGrid() {
 		$(this).attr('bgcolor', color);
 	});
 	
+	/*cell.ondbclick(function() {
+		// Select color input
+		console.log("resetColor is running!");
+		var color;
+		color = $("#colorPicker").val("white");
+		$(this).attr('bgcolor', 'white');
+	});*/
+	
+	
 }
 
 // When size is submitted by the user, call makeGrid()

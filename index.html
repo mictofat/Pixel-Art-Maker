@@ -8,26 +8,53 @@
 	<meta charset="UTF-8"> 
 </head>
 <body>
-    <h1>Mictofat: Pixel Art Maker</h1>
+	<header id="mainHeader">
+		<div id= "logo" >
+			<img src="img/logo.png" alt="Logo">
+		</div>
+		<div id= "navList" >
+			<ul id= "headerList" >
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</div>
+	</header>
+		<section id= "content" >
+			<h1>Mictofat : Pixel Art Maker</h1>
 
-    <h2>Choose Grid Size</h2>
-    <form id="sizePicker">
-        Grid Height:
-        <input type="number" id="input_height" name="height" min="1" value="1">
-        Grid Width:
-        <input type="number" id="input_width" name="width" min="1" value="1">
-        <input type="submit">
-    </form>
+			<h2>Choose Grid Size</h2>
+			<form id="sizePicker">
+				Grid Height:
+				<input type="number" id="input_height" name="height" min="1" value="1">
+				
+				Grid Width:
+				<input type="number" id="input_width" name="width" min="1" value="1">
+				<br><br>
+				<input type="submit" id = "submit" >
+			</form>
 
-    <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
+			<h2>Pick A Color</h2>
+				<input type="color" id="colorPicker">
 
-    <h2>Design Canvas</h2>
-    <table id="pixel_canvas">
-	
-	</table>
-
-    <script src="designs.js"></script>
+			<h2>Design Canvas</h2>
+				<table id="pixel_canvas">
+				
+				</table>
+		</section>
+	<div id= "empty" ></div>
+	<footer id= "mainFooter" >
+		<div id= "copy" >Copyright &copy; Mictofat 2018</div>
+		<div id= "socials" >
+			<ul>
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Instagram</a></li>
+				<li><a href="#">Google</a></li>
+			</ul>
+		</div>
+	</footer>
+	<script src="designs.js"></script> <!-- This is at the bottom for allow loading of the other elements before the javascript-->
 </body>
 </html>
 
